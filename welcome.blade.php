@@ -2,7 +2,7 @@
 <html>
 <body>
 
-  <head><script src="https://kit.fontawesome.com/0fe9543042.js" crossorigin="anonymous"></script></head>
+  <head><script src="https://kit.fontawesome.com/0fe9543042.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
