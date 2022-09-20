@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+
 
   <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="style.css">
   <br>
   <br>
+  
+  <body>
   
   <h1>WATERMARK</h1>
 
