@@ -2,33 +2,33 @@
 <html>
 <body>
 
-  <head><script src="https://kit.fontawesome.com/0fe9543042.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
+  <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+  
+  <script src="https://kit.fontawesome.com/0fe9543042.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <br>
+  <br>
+  
+  <h1>WATERMARK</h1>
 
-<br>
-<br>
-<h1>WATERMARK</h1>
-
-<form method="post" action="{{route('upload.uploadfile')}}" enctype="multipart/form-data"><br><br>
+  <form method="post" action="{{route('upload.uploadfile')}}" enctype="multipart/form-data"><br><br>
   @csrf
   <i class="fa-solid fa-camera"></i> Välj bild: 
   <br>
   <br>
   <input type="file" name="file">
+  <br>
+  <br>
+  <br>
+  <i class="fa-solid fa-stamp"></i> <label for="stamp">Välj färg på loggan: </label> <br><br>
   
-
-<br>
-<br>
-<br>
-  
-<i class="fa-solid fa-stamp"></i> <label for="stamp">Välj färg på loggan: </label> <br><br>
-
-         <select name="stamp" id="stamp">
+  <select name="stamp" id="stamp">
          <option value="svart">Svart</option>
          <option value="vit">Vit</option>
          </select>
+         
          <br>
          <br>
          <br>
@@ -45,7 +45,7 @@
 <br>     <i class="fa-solid fa-arrow-down"></i>
 <br>
 <br>
-<input type="submit" value="Skapa!" name="submit"><br><br>
+         <input type="submit" value="Skapa!" name="submit"><br><br>
 
 
 </form>
