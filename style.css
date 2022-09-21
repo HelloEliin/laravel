@@ -26,6 +26,10 @@ body {
     width: 40%;
   }
 
+img:hover {
+  opacity: 0.5;
+}
+
   a {
     color: black;
     
